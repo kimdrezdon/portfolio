@@ -1,0 +1,23 @@
+{
+  "name": "techdegree-project-6",
+  "version": "0.1.0",
+  "description": "My portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimdrezdon/techdegree-project-6.git"
+  },
+  "author": "Kim Drezdon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimdrezdon/techdegree-project-6/issues"
+  },
+  "homepage": "https://github.com/kimdrezdon/techdegree-project-6#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "pug": "^2.0.3"
+  }
+}
