@@ -1,0 +1,49 @@
+{
+	"projects": [
+        {
+			"id": 0,
+			"project_name": "Random Quote Generator",
+			"description": "hello",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
+			"github_link": "https: //github.com/kimdrezdon/techdegree-project-1",
+			"image_urls": ["hello", "hello"]
+		},
+		{
+			"id": 1,
+			"project_name": "List Pagination and Filtering",
+			"description": "hello",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-2/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-2",
+			"image_urls": ["hello", "hello"]
+		},
+		{
+			"id": 2,
+			"project_name": "Interactive Form",
+			"description": "hello",
+			"technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-3/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-3",
+			"image_urls": ["hello", "hello"]
+		},
+		{
+			"id": 3,
+			"project_name": "OOP Game Show App",
+			"description": "hello",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-4/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-4",
+			"image_urls": ["hello", "hello"]
+		},
+		{
+			"id": 4,
+			"project_name": "Public API Requests",
+			"description": "hello",
+			"technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-5/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-5",
+			"image_urls": ["hello", "hello"]
+		}
+	]
+}
