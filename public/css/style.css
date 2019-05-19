@@ -38,6 +38,13 @@ h1,h2,h3,h4,h5,p{
   background-color: #111;
 }
 
+.error-button {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+
 a{
   color: #333;
 }
@@ -146,5 +153,6 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+  line-height: 25px;
 }
+

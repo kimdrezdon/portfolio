@@ -19,8 +19,11 @@ app.get('/about', (req, res) => {
     res.render('about');
 })
 
-app.get('/:id', (req, res) => {
+app.get('/:id', (req, res, next) => {
     const { id } = req.params;
+    if (id > 4 || isNaN(id)) {
+        return next();
+    }
     const project = projects[id];
     const projectName = project.project_name;
     const { description } = project;
@@ -33,5 +36,17 @@ app.get('/:id', (req, res) => {
 
     res.render('project', templateData);
 });
+
+app.use((req, res, next) => {
+    const err = new Error('Looks like you may have gotten lost!');
+    err.status = 404;
+    next(err);
+})
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+})
 
 app.listen(3000);

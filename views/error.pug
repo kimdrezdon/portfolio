@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .error
+        h1= error.status
+        h2= error.message
+        br
+        a.button.error-button(href='/') Take me home!
+        br
+        br
+        br
+        pre= error.stack
