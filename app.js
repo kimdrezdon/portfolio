@@ -22,20 +22,14 @@ app.get('/about', (req, res) => {
 app.get('/:id', (req, res) => {
     const { id } = req.params;
     const project = projects[id];
-
-    const title = project.project_name;
-
+    const projectName = project.project_name;
     const { description } = project;
-
     const { technologies } = project;
-
     const liveLink = project.live_link;
-
     const githubLink = project.github_link;
-
     const imageUrls = project.image_urls.slice(1);
 
-    const templateData = { title, description, technologies, liveLink, githubLink , imageUrls};
+    const templateData = { projectName, description, technologies, liveLink, githubLink , imageUrls};
 
     res.render('project', templateData);
 });
