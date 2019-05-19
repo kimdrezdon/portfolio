@@ -7,7 +7,7 @@
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
 			"github_link": "https: //github.com/kimdrezdon/techdegree-project-1",
-			"image_urls": ["public/img/project-1-square.png", "public/img/project-1-landscape-1.png"]
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png"]
 		},
 		{
 			"id": 1,
@@ -16,7 +16,7 @@
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-2/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-2",
-			"image_urls": ["public/img/project-1-square.png", "public/img/project-1-landscape-1.png"]
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png"]
 		},
 		{
 			"id": 2,
@@ -25,7 +25,7 @@
 			"technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-3/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-3",
-			"image_urls": ["public/img/project-1-square.png", "public/img/project-1-landscape-1.png"]
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png"]
 		},
 		{
 			"id": 3,
@@ -34,7 +34,7 @@
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-4/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-4",
-			"image_urls": ["public/img/project-1-square.png", "public/img/project-1-landscape-1.png"]
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png"]
 		},
 		{
 			"id": 4,
@@ -43,7 +43,7 @@
 			"technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-5/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-5",
-			"image_urls": ["public/img/project-1-square.png", "public/img/project-1-landscape-1.png"]
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png"]
 		}
 	]
 }
