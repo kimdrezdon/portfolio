@@ -17,6 +17,9 @@
     "url": "https://github.com/kimdrezdon/techdegree-project-6/issues"
   },
   "homepage": "https://github.com/kimdrezdon/techdegree-project-6#readme",
+  "engines": {
+    "node": "12.2.0"
+  },
   "dependencies": {
     "express": "^4.17.0",
     "pug": "^2.0.3"
