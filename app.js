@@ -49,4 +49,8 @@ app.use((err, req, res, next) => {
     res.render('error');
 })
 
-app.listen(3000);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
