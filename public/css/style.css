@@ -1,21 +1,20 @@
 *{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
 h1,h4{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h2,h3,h5,h6{
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 p{
@@ -64,13 +63,9 @@ a:hover{
   line-height: 0;
 }
 
-a .thumbnail{
-  filter: grayscale(100%);
-}
-
 .portfolio-me{
   padding: 20px;
-  background: #363635;
+  background: #171717;
   color: #fff;
   box-shadow: none !important;
 }
@@ -81,8 +76,8 @@ a .thumbnail{
   }
 
   .portfolio-me a{
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    /* font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600; */
     color: #555;
     font-size: 13px;
     letter-spacing: 2.5px;
@@ -101,8 +96,8 @@ a .thumbnail{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
+   /* font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: 600; */
    font-size: 13px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
