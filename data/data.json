@@ -1,22 +1,22 @@
 {
 	"projects": [
-        {
+		{
 			"id": 0,
-			"project_name": "Random Quote Generator",
-			"description": "A Colombian cartel that WON'T kidnap and kill you. Hey, look at that – you're mean sober, too. A million ****ing diamonds! Chicken fingers… with spicy club sauce. What do you think about Sudden Valley? It sounds like a salad dressing, but for some reason I don't want to eat it. It's a jetpack, Michael. What could possibly go wrong? You are a worse psychiatrist than you are a son-in-law and you will never get work as an actor because you have no talent. Heyyyy uncle father Oscar.",
-			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
-			"github_link": "https://github.com/kimdrezdon/techdegree-project-1",
-			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png", "static/img/project-1-landscape-2.png"]
+			"project_name": "Public API Requests",
+			"description": "This project is an employee directory for a fictional company. It uses Fetch API to request data from the Random User Generator API. The JSON object from the API is parsed and a card is created for each employee with basic contact information. Clicking on an employee’s card will display a modal window with additional information. Within the modal window, employees can be toggled through continuously without having to exit the modal. The list of employees can be filtered using the search field.",
+			"technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-5/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-5",
+			"image_urls": ["static/img/project-5-square.png", "static/img/project-5-landscape-1.png", "static/img/project-5-landscape-2.png", "static/img/project-5-landscape-3.png"]
 		},
 		{
 			"id": 1,
-			"project_name": "List Pagination and Filtering",
-			"description": "Yes, Annyong. Your name is Annyong! We all know you're Annyong! Well, they got the Asian right… 'hotties' might be a stretch. I will pack your sweet pink mouth with so much ice cream you'll be the envy of every Jerry and Jane on the block! So you take your mom to work every day? Bummer. Moms are such a pain in the ass, huh? It's, like, die already! I was hoping he would be gifted sexually. It's, like, Hey, you want to go down to the whirlpool? Yeah, I don't have a husband. I call it Swing City. I've got a nice hard cot with his name on it. You'd do that to your own brother? I said 'cot.",
+			"project_name": "OOP Game Show App",
+			"description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s 5 lives is removed. The player keeps guessing either until they guess all the letters and win, or they use up all 5 of their lives and lose the game.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-			"live_link": "https://kimdrezdon.github.io/techdegree-project-2/",
-			"github_link": "https://github.com/kimdrezdon/techdegree-project-2",
-			"image_urls": ["static/img/project-2-square.png", "static/img/project-2-landscape-1.png", "static/img/project-2-landscape-2.png", "static/img/project-2-landscape-3.png"]
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-4/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-4",
+			"image_urls": ["static/img/project-4-square.png", "static/img/project-4-landscape-1.png", "static/img/project-4-landscape-2.png", "static/img/project-4-landscape-3.png", "static/img/project-4-landscape-4.png", "static/img/project-4-landscape-5.png"]
 		},
 		{
 			"id": 2,
@@ -29,21 +29,21 @@
 		},
 		{
 			"id": 3,
-			"project_name": "OOP Game Show App",
-			"description": "No. I was ashamed to be _seen_ with you. I like being with you. Could it be love? I know what an erection feels like, Michael. No, it's the opposite. It's like my heart is getting hard. Don't worry, these young beauties have been nowhere near the bananas. The worst that could happen is that I could spill coffee all over this $3,000 suit. COME ON. It seems like only yesterday you were bursting forth from your mother's fertile womb. Yeah, like I'm going to take a whiz through this $5,000 suit. COME ON. Oh, I don't have any drugs for sale, unless… did you want me to follow you to your car? You want your belt to buckle, not your chair.",
+			"project_name": "List Pagination and Filtering",
+			"description": "Yes, Annyong. Your name is Annyong! We all know you're Annyong! Well, they got the Asian right… 'hotties' might be a stretch. I will pack your sweet pink mouth with so much ice cream you'll be the envy of every Jerry and Jane on the block! So you take your mom to work every day? Bummer. Moms are such a pain in the ass, huh? It's, like, die already! I was hoping he would be gifted sexually. It's, like, Hey, you want to go down to the whirlpool? Yeah, I don't have a husband. I call it Swing City. I've got a nice hard cot with his name on it. You'd do that to your own brother? I said 'cot.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-			"live_link": "https://kimdrezdon.github.io/techdegree-project-4/",
-			"github_link": "https://github.com/kimdrezdon/techdegree-project-4",
-			"image_urls": ["static/img/project-4-square.png", "static/img/project-4-landscape-1.png", "static/img/project-4-landscape-2.png", "static/img/project-4-landscape-3.png", "static/img/project-4-landscape-4.png", "static/img/project-4-landscape-5.png"]
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-2/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-2",
+			"image_urls": ["static/img/project-2-square.png", "static/img/project-2-landscape-1.png", "static/img/project-2-landscape-2.png", "static/img/project-2-landscape-3.png"]
 		},
-		{
+        {
 			"id": 4,
-			"project_name": "Public API Requests",
-			"description": "I need a fake passport, preferably to France…I like the way they think. Probably out there without a flipper, swimming around in a circle, freaking out his whole family. Coo coo ca chaw. Coo coo ca chaw. Coo coo ca chaw. No, she's in it. She's a contestant. It's sorta like an inner beauty pageant. Ah, there it is. Never once touched my per diem. I'd go to Craft Service, get some raw veggies, bacon, Cup-A-Soup…baby, I got a stew goin'. Look what the homosexuals have done to me! You can't just comb that out and reset it? The only thing I found in the fridge was a dead dove in a bag. Gob: You didn't eat that, did you? Sweet old thing. Only two of those words describe Mom, so I know you're lying to me.",
-			"technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Visual Studio Code"],
-			"live_link": "https://kimdrezdon.github.io/techdegree-project-5/",
-			"github_link": "https://github.com/kimdrezdon/techdegree-project-5",
-			"image_urls": ["static/img/project-5-square.png", "static/img/project-5-landscape-1.png", "static/img/project-5-landscape-2.png", "static/img/project-5-landscape-3.png"]
+			"project_name": "Random Quote Generator",
+			"description": "A Colombian cartel that WON'T kidnap and kill you. Hey, look at that – you're mean sober, too. A million ****ing diamonds! Chicken fingers… with spicy club sauce. What do you think about Sudden Valley? It sounds like a salad dressing, but for some reason I don't want to eat it. It's a jetpack, Michael. What could possibly go wrong? You are a worse psychiatrist than you are a son-in-law and you will never get work as an actor because you have no talent. Heyyyy uncle father Oscar.",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-1",
+			"image_urls": ["static/img/project-1-square.png", "static/img/project-1-landscape-1.png", "static/img/project-1-landscape-2.png"]
 		}
 	]
 }
