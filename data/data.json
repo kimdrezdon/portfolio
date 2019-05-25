@@ -12,7 +12,7 @@
 		{
 			"id": 1,
 			"project_name": "OOP Game Show App",
-			"description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s 5 lives is removed. The player keeps guessing either until they guess all the letters and win, or they use up all 5 of their lives and lose the game.",
+			"description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s five hearts is removed. The player keeps guessing either until they guess all the letters and win, or they use up all of their hearts and lose the game.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-4/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-4",
@@ -39,7 +39,7 @@
         {
 			"id": 4,
 			"project_name": "Random Quote Generator",
-			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every 10 seconds.",
+			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-1",
