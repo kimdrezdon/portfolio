@@ -121,12 +121,23 @@ a:hover{
     margin-bottom: 5px;
   }
 
+    .portfolio-index .thumbnail:hover{
+      margin-bottom: 5px;
+    }
+
   .portfolio-index a{
     color: #222;
   }
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+    transition: 0.4s;
+  }
+
+  .portfolio-index .cell:hover{
+    margin-bottom: 15px;
+    transform: scale(1.1);
+    transition: 0.4s;
   }
 
 .portfolio-meta{
