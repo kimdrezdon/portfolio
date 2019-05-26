@@ -68,15 +68,15 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #F6FEF5;
+  border: solid 4px #DEE3E1;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
 .thumbnail{
-  border-color: #F4F9F7;
-  box-shadow: 0 0 0 1px#A3C69F;
+  border-color: #DEE3E1;
+  box-shadow: 0 0 0 1px#DEE3E1;
 }
 
 .portfolio-me{
