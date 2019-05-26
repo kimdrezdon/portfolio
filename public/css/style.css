@@ -1,5 +1,9 @@
-h5,h6,p,a{
-  font-family: 'Roboto', sans-serif;
+body{
+  background-color: #F4F9F7;
+}
+
+h1{
+  color: #21252B;
 }
 
 h1,h4{
@@ -10,17 +14,26 @@ h1,h4{
   font-weight: 400;
 }
 
-h5,h6{
+h5,h6,p,a{
+  font-family: 'Roboto', sans-serif;
+  color: #3B3F46;
+}
+
+h6{
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 2.5px;
 }
 
+h5{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
 p{
   font-size: 18px;
   font-weight: 400;
-  color: #666;
 }
 
 .round{
@@ -28,15 +41,16 @@ p{
 }
 
 .text-light{
-  color: #666;
+  color: #3B3F46;
 }
 
 .button{
-  background-color: #333;
+  background-color: #E24A2B;
+  color: #F4F9F7;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #A53620;
 }
 
 .error-button {
@@ -46,39 +60,40 @@ p{
   width: 200px;
 }
 
-a{
-  color: #333;
-}
-
 a:hover{
-  color: #111;
+  color: #21252B;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #F6FEF5;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
+.thumbnail{
+  border-color: #F4F9F7;
+  box-shadow: 0 0 0 1px#A3C69F;
+}
+
 .portfolio-me{
   padding: 20px;
-  background: #171717;
-  color: #fff;
+  background-color: #143642;
+  color: #F4F9F7;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #D7E5D5;
   }
 
   .portfolio-me a{
-    color: rgb(138, 137, 137);
-    font-size: 13px;
+    color: #D7E5D5;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -86,17 +101,18 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #A3C69F;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #F4F9F7;
 }
 
  .portfolio-breadcrumb a{
    font-size: 13px;
+   font-weight: 500;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
@@ -108,7 +124,7 @@ a:hover{
 }
 
   .portfolio-intro p{
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #F4F9F7;
     padding-bottom: 40px;
   }
 
@@ -153,8 +169,8 @@ a:hover{
 }
 
   .portfolio-project li{
-    font-size: 13px;
-    color: #444;
+    font-size: 14px;
+    color: #3B3F46;
   }
 
 .portfolio-bio{
