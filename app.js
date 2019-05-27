@@ -19,7 +19,7 @@ app.get('/about', (req, res) => {
     res.render('about');
 })
 
-app.get('/:id', (req, res, next) => {
+app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     if (id > 4 || isNaN(id)) {
         return next();
