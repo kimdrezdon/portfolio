@@ -1,4 +1,4 @@
-# techdegree-project-6: Static Node.js and Express Site
+# Static Node.js and Express Site
 
 This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. 
 
