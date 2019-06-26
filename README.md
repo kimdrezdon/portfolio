@@ -1,10 +1,16 @@
-# techdegree-project-6
-Static Node.js and Express Site
+# techdegree-project-6: Static Node.js and Express Site
 
 This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. 
 
-This project is hosted on Heroku, but can also be run in the terminal using 'node app.js' or 'npm start'.
-
-I have changed the fonts, colors, background colors and added a transition effect to the project thumbnails on the main page. 
-
 An error message is displayed on the page as well as in the console when a user navigates to a path that does not exist.
+
+This project is also hosted on Heroku.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
