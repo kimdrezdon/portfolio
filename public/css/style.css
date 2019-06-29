@@ -75,7 +75,7 @@ a:hover{
 }
 
 .thumbnail{
-  border-color: #DEE3E1;
+  border: none;
   box-shadow: 0 0 0 1px#DEE3E1;
 }
 
