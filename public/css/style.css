@@ -79,6 +79,11 @@ a:hover{
   box-shadow: 0 0 0 1px#DEE3E1;
 }
 
+.logo{
+  height: 20px;
+  width: 20px;
+}
+
 .portfolio-me{
   padding: 20px;
   background-color: #143642;
