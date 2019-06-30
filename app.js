@@ -4,7 +4,8 @@ const app = express();
 
 //Require JSON data object
 const data = require('./data/data.json');
-const projects = data.projects
+const projects = data.projects;
+const technologies = data.technologies;
 
 //Serve static files
 app.use('/static', express.static('public'));
@@ -21,7 +22,9 @@ app.get('/', (req, res) => {
 
 //Route for About page
 app.get('/about', (req, res) => {
-    res.render('about');
+    const templateData = { technologies };
+
+    res.render('about', templateData);
 })
 
 //Route for project pages

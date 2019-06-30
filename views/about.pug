@@ -19,16 +19,12 @@ block content
         h6 Skills
 
         ul
-          li JavaScript
-          li jQuery
-          li AJAX
-          li Node.js
-          li Express
-          li HTML
-          li CSS
-          li Visual Studio Code
-          li Git/Github
-          li Pug
+          each technology in technologies
+            li
+                img.logo(src=`${technology.image_url}`)
+                span=`     ${technology.name}`
+                
+
         h6 Contact Info
 
         ul

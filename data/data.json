@@ -63,5 +63,51 @@
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-1",
 			"image_urls": ["/static/img/project-1-square.png", "/static/img/project-1-landscape-1.png", "/static/img/project-1-landscape-2.png"]
 		}
+	],
+	"technologies": [
+		{
+			"name": "JavaScript",
+			"image_url": "/static/img/javascript-logo.png"
+		},
+		{
+			"name": "React",
+			"image_url": "/static/img/react-logo.png"
+		},
+		{
+			"name": "jQuery",
+			"image_url": "/static/img/jquery-logo.png"
+		},
+		{
+			"name": "Node.js",
+			"image_url": "/static/img/node-logo.png"
+		},
+		{
+			"name": "Express",
+			"image_url": "/static/img/express-logo.png"
+		},
+		{
+			"name": "HTML",
+			"image_url": "/static/img/html-logo.png"
+		},
+		{
+			"name": "CSS",
+			"image_url": "/static/img/css-logo.png"
+		},
+		{
+			"name": "Visual Studio Code",
+			"image_url": "/static/img/vscode-logo.png"
+		},
+		{
+			"name": "Git/Github",
+			"image_url": "/static/img/github-logo.png"
+		},
+		{
+			"name": "Pug",
+			"image_url": "/static/img/pug-logo.png"
+		},
+		{
+			"name": "Heroku",
+			"image_url": "/static/img/heroku-logo.png"
+		}
 	]
 }
