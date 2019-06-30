@@ -30,7 +30,7 @@ app.get('/about', (req, res) => {
 //Route for project pages
 app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
-    if (id > 4 || isNaN(id)) {
+    if (id > projects.length || isNaN(id)) {
         return next();
     }
     const project = projects[id];
