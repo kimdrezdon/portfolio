@@ -117,6 +117,10 @@
 		{
 			"name": "Heroku",
 			"image_url": "/static/img/heroku-logo.png"
+		},
+		{
+			"name": "Sequelize",
+			"image_url": "/static/img/sequelize-logo.png"
 		}
 	]
 }
