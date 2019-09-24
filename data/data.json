@@ -2,6 +2,15 @@
 	"projects": [
 		{
 			"id": 0,
+			"project_name": "SQL Library Manager",
+			"description": "This project uses JavaScript, Sequelize, Express, Pug and Node.js to build a web application that manages a database of books. The user can view the entire list of books, with pagination links to display only 10 books per page. Books can be created and updated. Error messages will be displayed if the Title, Author or Year fields are invalid. A search feature is added to allow users to find full or partial matches to their search. The search button can be activated with a click or by pressing the enter/return key. The pagination links are updated based on the search results. If the user's search does not match any names in the list, all books will be hidden and a 'No Results' message will appear. If the user does not type anything into the input field, and clicks search or presses the enter key, the entire list will be displayed again.",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "Node.js", "Express", "Pug", "Sequelize"],
+			"live_link": "https://kdrezdon-sql-library-manager.herokuapp.com/",
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-8",
+			"image_urls": ["/static/img/project-7-square.png", "/static/img/project-7-landscape-1.png", "/static/img/project-7-landscape-2.png", "/static/img/project-7-landscape-3.png", "/static/img/project-7-landscape-4.png"]
+		},
+		{
+			"id": 1,
 			"project_name": "React Gallery App",
 			"description": "This project uses JavaScript, JSX, Axios, React and React Router to generate a photo gallery using data fetched from the Flickr API. Three default topics are available when the page loads. The user can search for a destination to find related images. A loading indicator displays while the app fetches new data for the search. If no matches are found by the search, a message displays informing the user that there were no results found. An error message is displayed when a user navigates to a path that does not exist.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "React"],
@@ -10,7 +19,7 @@
 			"image_urls": ["/static/img/project-7-square.png", "/static/img/project-7-landscape-1.png", "/static/img/project-7-landscape-2.png", "/static/img/project-7-landscape-3.png", "/static/img/project-7-landscape-4.png"]
 		},
 		{
-			"id": 1,
+			"id": 2,
 			"project_name": "Static Node.js and Express Site",
 			"description": "This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. An error message is displayed on the page when a user navigates to a path that does not exist.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "Node.js", "Express", "Pug"],
@@ -19,7 +28,7 @@
 			"image_urls": ["/static/img/project-6-square.png", "/static/img/project-6-landscape-1.png", "/static/img/project-6-landscape-2.png", "/static/img/project-6-landscape-3.png"]
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"project_name": "Public API Requests",
 			"description": "This project is an employee directory for a fictional company. It uses Fetch API to request data from the Random User Generator API. The JSON object from the API is parsed and a card is created for each employee with basic contact information. Clicking on an employee’s card will display a modal window with additional information. Within the modal window, employees can be toggled through continuously without having to exit the modal. The list of employees can be filtered using the search field.",
 			"technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Visual Studio Code"],
@@ -28,7 +37,7 @@
 			"image_urls": ["/static/img/project-5-square.png", "/static/img/project-5-landscape-1.png", "/static/img/project-5-landscape-2.png", "/static/img/project-5-landscape-3.png"]
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"project_name": "OOP Game Show App",
 			"description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s five hearts is removed. The player keeps guessing either until they guess all the letters and win, or they use up all of their hearts and lose the game.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
@@ -37,7 +46,7 @@
 			"image_urls": ["/static/img/project-4-square.png", "/static/img/project-4-landscape-1.png", "/static/img/project-4-landscape-2.png", "/static/img/project-4-landscape-3.png", "/static/img/project-4-landscape-4.png", "/static/img/project-4-landscape-5.png"]
 		},
 		{
-			"id": 4,
+			"id": 5,
 			"project_name": "Interactive Form",
 			"description": "This project uses unobtrusive JavaScript and jQuery to add dynamic and conditional functionality to a registration form. The entire form is checked for validity and completeness. If any errors are found, the form will not submit and the corresponding error messages will be displayed. If all fields are valid, an alert displays informing the user that the registration was successfully submitted.",
 			"technologies": ["JavaScript", "jQuery", "HTML", "CSS", "Visual Studio Code"],
@@ -46,7 +55,7 @@
 			"image_urls": ["/static/img/project-3-square.png", "/static/img/project-3-landscape-1.png", "/static/img/project-3-landscape-2.png", "/static/img/project-3-landscape-3.png", "/static/img/project-3-landscape-4.png"]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"project_name": "List Pagination and Filtering",
 			"description": "This project uses unobtrusive JavaScript to dynamically add pagination links to a long list of students, displaying only ten students per page. This will work for a list of any length.  A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
@@ -55,7 +64,7 @@
 			"image_urls": ["/static/img/project-2-square.png", "/static/img/project-2-landscape-1.png", "/static/img/project-2-landscape-2.png", "/static/img/project-2-landscape-3.png"]
 		},
         {
-			"id": 6,
+			"id": 7,
 			"project_name": "Random Quote Generator",
 			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
