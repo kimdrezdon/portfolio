@@ -15,7 +15,7 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-### `nodemon`
+### `npm run dev`
 
 Runs the app in the development mode without having to stop and restart the server every time changes are made, if you have nodemon installed. <br>
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
