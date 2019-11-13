@@ -163,10 +163,11 @@ a:hover{
 
 .portfolio-meta{
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 
   .portfolio-meta .button{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
 .portfolio-project p{
