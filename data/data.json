@@ -2,12 +2,11 @@
 	"projects": [
 		{
 			"id": 0,
-			"project_name": "REST API",
-			"description": "This project uses Sequelize, Express, Node.js and JavaScript to build a REST API that provides a way for users to manage a school database containing information about courses. Users can create an account, with their passwords securely hashed. An authenticated user can retrieve a list of courses, or create, update and delete their own courses. Error messages are displayed if any validations fail.",
-			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "Node.js", "Express", "Sequelize"],
-			"live_link": "https://kdrezdon-rest-api.herokuapp.com/",
-			"github_link": "https://github.com/kimdrezdon/techdegree-project-9",
-			"image_urls": ["/static/img/project-9-square.png"]
+			"project_name": "Full Stack App with React and a REST API",
+			"description": "This full stack application uses React and a REST API built using Sequelize, Express, Node.js and JavaScript to provide a way for users to administer a school database containing information about courses. Users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating or deleting courses in the database. In addition, the app requires users to create an account and sign in to make changes to the database. Navigation links and buttons will dynamically display based on whether there is an authenticated user logged in or not. Error messages are displayed in any validations fail when updating or creating a course, as well as during user sign up.",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "Node.js", "Express", "Sequelize", "React"],
+			"github_link": "https://github.com/kimdrezdon/techdegree-project-10",
+			"image_urls": ["/static/img/project-10-square.png", "/static/img/project-10-landscape-1.png", "/static/img/project-10-landscape-2.png", "/static/img/project-10-landscape-3.png", "/static/img/project-10-landscape-4.png", "/static/img/project-10-landscape-5.png", "/static/img/project-10-landscape-6.png", "/static/img/project-10-landscape-7.png"]
 		},
 		{
 			"id": 1,
