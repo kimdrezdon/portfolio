@@ -19,7 +19,8 @@ block content
           each technology in technologies
             li= technology
 
-        a.button.expanded(href=`${liveLink}` target='_blank') Live Demo
+        if liveLink
+          a.button.expanded(href=`${liveLink}` target='_blank') Live Demo
         a.button.expanded(href=`${githubLink}` target='_blank') GitHub Repo
     
     each imageUrl in imageUrls 
