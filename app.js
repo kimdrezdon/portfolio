@@ -6,6 +6,7 @@ const app = express();
 const data = require("./data/data.json");
 const projects = data.projects;
 const technologies = data.technologies;
+const profiles = data.profiles;
 
 //Serve static files
 app.use("/static", express.static("public"));
@@ -22,7 +23,7 @@ app.get("/", (req, res) => {
 
 //Route for About page
 app.get("/about", (req, res) => {
-  const templateData = { technologies };
+  const templateData = { technologies, profiles };
 
   res.render("about", templateData);
 });

@@ -14,7 +14,7 @@ block content
 
         .portfolio-bio
           p
-            | Hi there! I am a developer and lifelong learner residing in Austin, Texas. I am a recent graduate of the Full Stack JavaScript Techdegree program at Treehouse. So far, it has been an exciting journey learning how to build dynamic interactive apps. I am currently working remotely as an accountant, but I look forward to getting the opportunity to work in the tech industry as a developer.
+            | Hi there! I am a developer and lifelong learner residing in Austin, Texas. I am a recent graduate of the Full Stack JavaScript Techdegree program at Treehouse. It has been an exciting journey learning how to build dynamic interactive apps. I am self-motivated and enthusiastic about programming, with a desire to learn and work as part of a team. I offer strong analytical and problem solving skills, with a professional background in the deadline-driven field of accounting. I am currently working on the #100DaysOfCode challenge. Check out my profiles!
       
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
@@ -29,15 +29,11 @@ block content
         h6 Contact Info
 
         ul
-          li 262-902-6932
           li kim.drezdon@gmail.com
 
-        a.button.expanded(href='https://www.linkedin.com/in/kimdrezdon' target='_blank') LinkedIn
-        a.button.expanded(href='https://github.com/kimdrezdon' target='_blank') GitHub
-        a.button.expanded(href='https://www.codewars.com/users/kimdrezdon' target='_blank') CodeWars
-        a.button.expanded(href='https://www.hackerrank.com/kim_drezdon' target='_blank') HackerRank
-        a.button.expanded(href='https://twitter.com/KimDrezdon' target='_blank') Twitter #100DaysOfCode
-        a.button.expanded(href='https://www.freecodecamp.org/kimdrezdon' target='_blank') freeCodeCamp
+        each profile in profiles
+          a.button.expanded(href=`${profile.link}` target='_blank')= `${profile.name}`
+
         
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
