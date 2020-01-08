@@ -66,16 +66,16 @@
 		{
 			"id": 7,
 			"project_name": "List Pagination and Filtering",
-			"description": "This project uses unobtrusive JavaScript to dynamically add pagination links to a long list of students, displaying only ten students per page. This will work for a list of any length.  A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results.",
+			"description": "This project uses unobtrusive JavaScript to dynamically add pagination links to a long list of students, displaying only ten students per page. This will work for a list of any length.  A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results. A select menu is available to allow the user to choose how many results are displayed per page.",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-2/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-2",
-			"image_urls": ["/static/img/project-2-square.png", "/static/img/project-2-landscape-1.png", "/static/img/project-2-landscape-2.png", "/static/img/project-2-landscape-3.png"]
+			"image_urls": ["/static/img/project-2-square.png", "/static/img/project-2-landscape-1.png", "/static/img/project-2-landscape-2.png", "/static/img/project-2-landscape-3.png", "/static/img/project-2-landscape-4.png"]
 		},
         {
 			"id": 8,
 			"project_name": "Random Quote Generator",
-			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds.",
+			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds. I recently added a feature to prevent repeating quotes",
 			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 			"live_link": "https://kimdrezdon.github.io/techdegree-project-1/",
 			"github_link": "https://github.com/kimdrezdon/techdegree-project-1",
