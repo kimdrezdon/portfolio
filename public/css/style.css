@@ -131,6 +131,7 @@ a:hover{
   .portfolio-intro p{
     border-bottom: 1px solid #F4F9F7;
     padding-bottom: 40px;
+    padding-right: 90px;
   }
 
 .portfolio-index{
@@ -166,8 +167,13 @@ a:hover{
   margin-bottom: 20px;
 }
 
+  .portfolio-meta ul{
+    margin-bottom: 20px;
+  } 
+
   .portfolio-meta .button{
     margin-bottom: 10px;
+    width: 75%
   }
 
 .portfolio-project p{
@@ -183,3 +189,7 @@ a:hover{
   line-height: 25px;
 }
 
+.certifications .button {
+  width: 60%;
+  background-color: #2D7A96;
+}

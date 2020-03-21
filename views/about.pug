@@ -14,7 +14,13 @@ block content
 
         .portfolio-bio
           p
-            | Hi there! I am a developer and lifelong learner residing in Austin, Texas. I am a recent graduate of the Full Stack JavaScript Techdegree program at Treehouse. It has been an exciting journey learning how to build dynamic interactive apps. I am self-motivated and enthusiastic about programming, with a desire to learn and work as part of a team. I offer strong analytical and problem solving skills, with a professional background in the deadline-driven field of accounting. I am currently working on the #100DaysOfCode challenge. Check out my profiles!
+            | Hi there! I am a developer and lifelong learner residing in Austin, Texas. I am a graduate of the Full Stack JavaScript Techdegree program at Treehouse. I also have a certificate in JavaScript Algorithms and Data Structures from freeCodeCamp. It has been an exciting journey learning how to build dynamic interactive websites. I am self-motivated and enthusiastic about programming, with a desire to learn and work as part of a team. I offer strong analytical and problem solving skills, with a professional background in the deadline-driven field of accounting. My hobbies include reading, crafting and hiking. I am currently working on the #100DaysOfCode challenge. I also recently enrolled in Harvard's CS50 Intro to Computer Science course on edX. Check out the links to my profiles and GitHub!
+
+        h6 Certifications
+
+        .certifications
+          each certification in certifications
+            a.button.expanded(href=`${certification.link}` target='_blank')= `${certification.name}`
       
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
@@ -32,7 +38,7 @@ block content
           li kim.drezdon@gmail.com
 
         each profile in profiles
-          a.button.expanded(href=`${profile.link}` target='_blank')= `${profile.name}`
+          a.button.expanded(href=`${profile.link}` target='_blank')= `${profile.name}`        
 
         
   nav.grid-container.portfolio-breadcrumb

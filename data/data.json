@@ -150,12 +150,22 @@
 			"link": "https://www.hackerrank.com/kim_drezdon"
 		},
 		{
-			"name": "Twitter #100DaysOfCode",
+			"name": "Twitter",
 			"link": "https://twitter.com/KimDrezdon"
 		},
 		{
 			"name": "freeCodeCamp",
 			"link": "https://www.freecodecamp.org/kimdrezdon"
+		}
+	],
+	"certifications": [
+		{
+			"name": "Full Stack JavaScript Techdegree : Treehouse",
+			"link": "https://www.credential.net/izid9leb"
+		},
+		{
+			"name": "JavaScript Algorithms and Data Structures : freeCodeCamp",
+			"link": "https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
 		}
 	]
 }

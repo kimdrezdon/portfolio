@@ -4,9 +4,7 @@ const app = express();
 
 //Require JSON data object
 const data = require("./data/data.json");
-const projects = data.projects;
-const technologies = data.technologies;
-const profiles = data.profiles;
+const { certifications, profiles, technologies, projects } = data;
 
 //Serve static files
 app.use("/static", express.static("public"));
@@ -23,7 +21,7 @@ app.get("/", (req, res) => {
 
 //Route for About page
 app.get("/about", (req, res) => {
-  const templateData = { technologies, profiles };
+  const templateData = { technologies, profiles, certifications };
 
   res.render("about", templateData);
 });
@@ -36,8 +34,7 @@ app.get("/projects/:id", (req, res, next) => {
   }
   const project = projects[id];
   const projectName = project.project_name;
-  const { description } = project;
-  const { technologies } = project;
+  const { description, technologies } = project;
   const liveLink = project.live_link;
   const githubLink = project.github_link;
   const imageUrls = project.image_urls.slice(1);
