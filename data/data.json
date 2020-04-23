@@ -75,7 +75,7 @@
         },
         {
             "id": 3,
-            "project_name": "Static Node.js and Express Site",
+            "project_name": "Portfolio - Node.js and Express",
             "description": "This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. An error message is displayed on the page when a user navigates to a path that does not exist.",
             "technologies": [
                 "JavaScript",
@@ -87,7 +87,7 @@
                 "Pug"
             ],
             "live_link": "https://kim-drezdon.herokuapp.com/",
-            "github_link": "https://github.com/kimdrezdon/techdegree-project-6",
+            "github_link": "https://github.com/kimdrezdon/portfolio",
             "image_urls": [
                 "/static/img/project-6-square.png",
                 "/static/img/project-6-landscape-1.png",
