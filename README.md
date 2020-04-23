@@ -1,6 +1,8 @@
 # Static Node.js and Express Site
 
-This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. 
+### Techdegree Project 6
+
+This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug.
 
 An error message is displayed when a user navigates to a path that does not exist.
 
