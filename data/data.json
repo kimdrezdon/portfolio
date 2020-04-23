@@ -75,7 +75,7 @@
         },
         {
             "id": 3,
-            "project_name": "Portfolio - Node.js and Express",
+            "project_name": "Portfolio",
             "description": "This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. An error message is displayed on the page when a user navigates to a path that does not exist.",
             "technologies": [
                 "JavaScript",
@@ -255,6 +255,10 @@
         {
             "name": "freeCodeCamp",
             "link": "https://www.freecodecamp.org/kimdrezdon"
+        },
+        {
+            "name": "Udemy",
+            "link": "https://www.udemy.com/user/kim-drezdon-2/"
         }
     ],
     "certifications": [
