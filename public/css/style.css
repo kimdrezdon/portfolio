@@ -207,6 +207,10 @@ a:hover {
     margin-top: 20px;
 }
 
+.certifications .button:hover {
+    background-color: #0f5169;
+}
+
 li span {
     margin-left: 5px;
 }
