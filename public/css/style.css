@@ -101,6 +101,8 @@ a:hover {
 }
 
 .portfolio-me a {
+    display: block;
+    margin: 15px 10px;
     color: #d7e5d5;
     font-size: 15px;
     font-weight: 500;
@@ -177,6 +179,7 @@ a:hover {
 }
 
 .portfolio-meta .button {
+    padding-bottom: 25px;
     margin-bottom: 10px;
     width: 75%;
     height: 5%;
