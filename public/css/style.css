@@ -170,8 +170,13 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.portfolio-meta h6 {
+    min-width: 250px;
+}
+
 .portfolio-meta ul {
     margin-bottom: 20px;
+    min-width: 250px;
 }
 
 .portfolio-meta ul li {
@@ -181,6 +186,7 @@ a:hover {
 .portfolio-meta .button {
     padding-bottom: 25px;
     margin-bottom: 10px;
+    min-width: 130px;
     width: 75%;
     height: 5%;
 }
