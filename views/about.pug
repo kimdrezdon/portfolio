@@ -35,8 +35,9 @@ block content
           li kim.drezdon@gmail.com
 
         each profile in profiles
-          a.button.expanded(href=`${profile.link}` target='_blank')= `${profile.name}`        
+          a.button.expanded(href=`${profile.link}` target='_blank')!= `<i class="${profile.icon}"></i> ${profile.name}`
 
+ 
         
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back

@@ -80,7 +80,7 @@ a:hover {
 
 .thumbnail {
     border: none;
-    box-shadow: 0 0 0 1px#DEE3E1;
+    border-radius: 7px;
 }
 
 .logo {
@@ -144,6 +144,7 @@ a:hover {
 
 .portfolio-index .thumbnail {
     margin-bottom: 5px;
+    border-radius: 7px;
 }
 
 .portfolio-index .thumbnail:hover {
@@ -177,6 +178,7 @@ a:hover {
 .portfolio-meta ul {
     margin-bottom: 20px;
     min-width: 250px;
+    list-style: none;
 }
 
 .portfolio-meta ul li {
@@ -186,9 +188,10 @@ a:hover {
 .portfolio-meta .button {
     padding-bottom: 25px;
     margin-bottom: 10px;
-    min-width: 130px;
+    min-width: 150px;
     width: 75%;
     height: 5%;
+    border-radius: 7px;
 }
 
 .portfolio-project p {
@@ -214,6 +217,7 @@ a:hover {
     height: 10%;
     background-color: #2d7a96;
     margin-top: 20px;
+    border-radius: 7px;
 }
 
 .certifications .button:hover {
@@ -222,4 +226,9 @@ a:hover {
 
 li span {
     margin-left: 5px;
+}
+
+.fab,
+.fas {
+    padding-right: 4px;
 }

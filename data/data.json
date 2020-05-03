@@ -234,44 +234,51 @@
     "profiles": [
         {
             "name": "LinkedIn",
-            "link": "https://www.linkedin.com/in/kimdrezdon"
+            "link": "https://www.linkedin.com/in/kimdrezdon",
+            "icon": "fab fa-linkedin"
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/kimdrezdon"
+            "link": "https://github.com/kimdrezdon",
+            "icon": "fab fa-github"
         },
         {
             "name": "CodeWars",
-            "link": "https://www.codewars.com/users/kimdrezdon"
+            "link": "https://www.codewars.com/users/kimdrezdon",
+            "icon": "fas fa-code"
         },
         {
             "name": "HackerRank",
-            "link": "https://www.hackerrank.com/kim_drezdon"
+            "link": "https://www.hackerrank.com/kim_drezdon",
+            "icon": "fab fa-hackerrank"
         },
         {
             "name": "Twitter",
-            "link": "https://twitter.com/KimDrezdon"
+            "link": "https://twitter.com/KimDrezdon",
+            "icon": "fab fa-twitter"
         },
         {
             "name": "freeCodeCamp",
-            "link": "https://www.freecodecamp.org/kimdrezdon"
+            "link": "https://www.freecodecamp.org/kimdrezdon",
+            "icon": "fab fa-free-code-camp"
         },
         {
             "name": "Udemy",
-            "link": "https://www.udemy.com/user/kim-drezdon-2/"
+            "link": "https://www.udemy.com/user/kim-drezdon-2/",
+            "icon": "fas fa-laptop-code"
         }
     ],
     "certifications": [
         {
-            "name": "Full Stack JavaScript Techdegree : Treehouse",
+            "name": "Full Stack JavaScript Techdegree - Treehouse",
             "link": "https://www.credential.net/izid9leb"
         },
         {
-            "name": "JavaScript Algorithms and Data Structures : freeCodeCamp",
+            "name": "JavaScript Algorithms and Data Structures - freeCodeCamp",
             "link": "https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
         },
         {
-            "name": "20 Web Projects With Vanilla JavaScript : Udemy",
+            "name": "20 Web Projects With Vanilla JavaScript - Udemy",
             "link": "http://ude.my/UC-39036a5e-1454-4bba-8fd9-bf77ada60d45/"
         }
     ]
