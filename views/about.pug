@@ -1,11 +1,11 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-6.medium-9.large-9.bio
 
         h1 About Me
 
@@ -21,8 +21,8 @@ block content
         .certifications
           each certification in certifications
             a.button.expanded(href=`${certification.link}` target='_blank')= `${certification.name}`
-      
-      .cell.portfolio-meta.small-6.medium-2.large-3
+
+      .cell.portfolio-meta.small-6.medium-2.large-3.bio
         h6 Skills
 
         ul
@@ -30,7 +30,7 @@ block content
             li
                 img.logo(src=`${technology.image_url}`)
                 span=`     ${technology.name}`
-                
+
 
         h6 Contact Info
 
@@ -40,8 +40,7 @@ block content
         each profile in profiles
           a.button.expanded(href=`${profile.link}` target='_blank')!= `<i class="${profile.icon}"></i> ${profile.name}`
 
- 
-        
+
+
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  

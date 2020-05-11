@@ -1,11 +1,11 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-6.medium-9.large-9.project-info
 
         h1= projectName
 
@@ -15,13 +15,13 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        ul
+        ul.project-technologies
           each technology in technologies
             li= technology
 
         if liveLink
           a.button.expanded(href=`${liveLink}` target='_blank') Live Demo
         a.button.expanded(href=`${githubLink}` target='_blank') GitHub Repo
-    
-    each imageUrl in imageUrls 
+
+    each imageUrl in imageUrls
       img.image(src=`${imageUrl}`)
