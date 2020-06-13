@@ -1,285 +1,289 @@
 {
-    "projects": [
-        {
-            "id": 0,
-            "project_name": "Full Stack Course Database",
-            "description": "This full stack application uses React and a REST API built using Sequelize, Express, Node.js and JavaScript to provide a way for users to administer a school database containing information about courses. Users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating or deleting courses in the database. In addition, the app requires users to create an account and sign in to make changes to the database. Navigation links and buttons will dynamically display based on whether there is an authenticated user logged in or not. Error messages are displayed in any validations fail when updating or creating a course, as well as during user sign up.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Visual Studio Code",
-                "Node.js",
-                "Express",
-                "Sequelize",
-                "React"
-            ],
-            "live_link": "https://kdrezdon-fullstack-course-app.herokuapp.com/",
-            "github_link": "https://github.com/kimdrezdon/full-stack-course-database",
-            "image_urls": [
-                "/static/img/project-10-square.png",
-                "/static/img/project-10-landscape-1.png",
-                "/static/img/project-10-landscape-2.png",
-                "/static/img/project-10-landscape-3.png",
-                "/static/img/project-10-landscape-4.png",
-                "/static/img/project-10-landscape-5.png",
-                "/static/img/project-10-landscape-6.png",
-                "/static/img/project-10-landscape-7.png"
-            ]
-        },
-        {
-            "id": 1,
-            "project_name": "SQL Library Manager",
-            "description": "This project uses JavaScript, Sequelize, Express, Pug and Node.js to build a web application that manages a database of books. The main page loads the book listing with pagination links to display only ten books per page. Books can be created, updated and deleted. Error messages will be displayed if the title, author or year fields are invalid. A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Visual Studio Code",
-                "Node.js",
-                "Express",
-                "Pug",
-                "Sequelize"
-            ],
-            "live_link": "https://kdrezdon-sql-library-manager.herokuapp.com/",
-            "github_link": "https://github.com/kimdrezdon/sql-library-manager",
-            "image_urls": [
-                "/static/img/project-8-square.png",
-                "/static/img/project-8-landscape-1.png",
-                "/static/img/project-8-landscape-2.png",
-                "/static/img/project-8-landscape-3.png",
-                "/static/img/project-8-landscape-4.png",
-                "/static/img/project-8-landscape-5.png"
-            ]
-        },
-        {
-            "id": 2,
-            "project_name": "React Photo Gallery",
-            "description": "This project uses JavaScript, JSX, Axios, React and React Router to generate a photo gallery using data fetched from the Flickr API. Three default topics are available when the page loads. The user can search for a destination to find related images. A loading indicator displays while the app fetches new data for the search. If no matches are found by the search, a message displays informing the user that there were no results found. An error message is displayed when a user navigates to a path that does not exist.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Visual Studio Code",
-                "React"
-            ],
-            "live_link": "https://kdrezdon-react-gallery.herokuapp.com/",
-            "github_link": "https://github.com/kimdrezdon/react-photo-gallery",
-            "image_urls": [
-                "/static/img/project-7-square.png",
-                "/static/img/project-7-landscape-1.png",
-                "/static/img/project-7-landscape-2.png",
-                "/static/img/project-7-landscape-3.png",
-                "/static/img/project-7-landscape-4.png"
-            ]
-        },
-        {
-            "id": 3,
-            "project_name": "Portfolio",
-            "description": "This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. An error message is displayed on the page when a user navigates to a path that does not exist.",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Visual Studio Code",
-                "Node.js",
-                "Express",
-                "Pug"
-            ],
-            "live_link": "https://kim-drezdon.herokuapp.com/",
-            "github_link": "https://github.com/kimdrezdon/portfolio",
-            "image_urls": [
-                "/static/img/project-6-square.png",
-                "/static/img/project-6-landscape-1.png",
-                "/static/img/project-6-landscape-2.png",
-                "/static/img/project-6-landscape-3.png"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name": "Employee Directory",
-            "description": "This project is an employee directory for a fictional company. It uses Fetch API to request data from the Random User Generator API. The JSON object from the API is parsed and a card is created for each employee with basic contact information. Clicking on an employee’s card will display a modal window with additional information. Within the modal window, employees can be toggled through continuously without having to exit the modal. The list of employees can be filtered using the search field.",
-            "technologies": [
-                "JavaScript",
-                "AJAX",
-                "HTML",
-                "CSS",
-                "Visual Studio Code"
-            ],
-            "live_link": "https://kimdrezdon.github.io/employee-directory/",
-            "github_link": "https://github.com/kimdrezdon/employee-directory",
-            "image_urls": [
-                "/static/img/project-5-square.png",
-                "/static/img/project-5-landscape-1.png",
-                "/static/img/project-5-landscape-2.png",
-                "/static/img/project-5-landscape-3.png"
-            ]
-        },
-        {
-            "id": 5,
-            "project_name": "Phrase Hunter Game",
-            "description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s five hearts is removed. The player keeps guessing either until they guess all the letters and win, or they use up all of their hearts and lose the game.",
-            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-            "live_link": "https://kimdrezdon.github.io/phrase-hunter-game/",
-            "github_link": "https://github.com/kimdrezdon/phrase-hunter-game",
-            "image_urls": [
-                "/static/img/project-4-square.png",
-                "/static/img/project-4-landscape-1.png",
-                "/static/img/project-4-landscape-2.png",
-                "/static/img/project-4-landscape-3.png",
-                "/static/img/project-4-landscape-4.png",
-                "/static/img/project-4-landscape-5.png"
-            ]
-        },
-        {
-            "id": 6,
-            "project_name": "Interactive Form",
-            "description": "This project uses unobtrusive JavaScript and jQuery to add dynamic and conditional functionality to a registration form. The entire form is checked for validity and completeness. If any errors are found, the form will not submit and the corresponding error messages will be displayed. If all fields are valid, an alert displays informing the user that the registration was successfully submitted.",
-            "technologies": [
-                "JavaScript",
-                "jQuery",
-                "HTML",
-                "CSS",
-                "Visual Studio Code"
-            ],
-            "live_link": "https://kimdrezdon.github.io/interactive-form/",
-            "github_link": "https://github.com/kimdrezdon/interactive-form",
-            "image_urls": [
-                "/static/img/project-3-square.png",
-                "/static/img/project-3-landscape-1.png",
-                "/static/img/project-3-landscape-2.png",
-                "/static/img/project-3-landscape-3.png",
-                "/static/img/project-3-landscape-4.png"
-            ]
-        },
-        {
-            "id": 7,
-            "project_name": "List Pagination and Filtering",
-            "description": "This project uses unobtrusive JavaScript to dynamically add pagination links to a long list of students, displaying only ten students per page. This will work for a list of any length.  A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results. A select menu is available to allow the user to choose how many results are displayed per page.",
-            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-            "live_link": "https://kimdrezdon.github.io/list-pagination-and-filtering/",
-            "github_link": "https://github.com/kimdrezdon/list-pagination-and-filtering",
-            "image_urls": [
-                "/static/img/project-2-square.png",
-                "/static/img/project-2-landscape-1.png",
-                "/static/img/project-2-landscape-2.png",
-                "/static/img/project-2-landscape-3.png",
-                "/static/img/project-2-landscape-4.png"
-            ]
-        },
-        {
-            "id": 8,
-            "project_name": "Random Quote Generator",
-            "description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds. I recently added a feature to prevent repeating quotes",
-            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-            "live_link": "https://kimdrezdon.github.io/random-quote-generator/",
-            "github_link": "https://github.com/kimdrezdon/random-quote-generator",
-            "image_urls": [
-                "/static/img/project-1-square.png",
-                "/static/img/project-1-landscape-1.png",
-                "/static/img/project-1-landscape-2.png"
-            ]
-        }
-    ],
-    "technologies": [
-        {
-            "name": "JavaScript",
-            "image_url": "/static/img/javascript-logo.png"
-        },
-        {
-            "name": "React",
-            "image_url": "/static/img/react-logo.png"
-        },
-        {
-            "name": "jQuery",
-            "image_url": "/static/img/jquery-logo.png"
-        },
-        {
-            "name": "Node.js",
-            "image_url": "/static/img/node-logo.png"
-        },
-        {
-            "name": "Express",
-            "image_url": "/static/img/express-logo.png"
-        },
-        {
-            "name": "HTML",
-            "image_url": "/static/img/html-logo.png"
-        },
-        {
-            "name": "CSS",
-            "image_url": "/static/img/css-logo.png"
-        },
-        {
-            "name": "Visual Studio Code",
-            "image_url": "/static/img/vscode-logo.png"
-        },
-        {
-            "name": "Git/Github",
-            "image_url": "/static/img/github-logo.png"
-        },
-        {
-            "name": "Pug",
-            "image_url": "/static/img/pug-logo.png"
-        },
-        {
-            "name": "Heroku",
-            "image_url": "/static/img/heroku-logo.png"
-        },
-        {
-            "name": "Sequelize",
-            "image_url": "/static/img/sequelize-logo.png"
-        }
-    ],
-    "profiles": [
-        {
-            "name": "LinkedIn",
-            "link": "https://www.linkedin.com/in/kimdrezdon",
-            "icon": "fab fa-linkedin"
-        },
-        {
-            "name": "GitHub",
-            "link": "https://github.com/kimdrezdon",
-            "icon": "fab fa-github"
-        },
-        {
-            "name": "CodeWars",
-            "link": "https://www.codewars.com/users/kimdrezdon",
-            "icon": "fas fa-code"
-        },
-        {
-            "name": "HackerRank",
-            "link": "https://www.hackerrank.com/kim_drezdon",
-            "icon": "fab fa-hackerrank"
-        },
-        {
-            "name": "Twitter",
-            "link": "https://twitter.com/KimDrezdon",
-            "icon": "fab fa-twitter"
-        },
-        {
-            "name": "freeCodeCamp",
-            "link": "https://www.freecodecamp.org/kimdrezdon",
-            "icon": "fab fa-free-code-camp"
-        },
-        {
-            "name": "Udemy",
-            "link": "https://www.udemy.com/user/kim-drezdon-2/",
-            "icon": "fas fa-laptop-code"
-        }
-    ],
-    "certifications": [
-        {
-            "name": "Full Stack JavaScript Techdegree - Treehouse",
-            "link": "https://www.credential.net/izid9leb"
-        },
-        {
-            "name": "JavaScript Algorithms and Data Structures - freeCodeCamp",
-            "link": "https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
-        },
-        {
-            "name": "20 Web Projects With Vanilla JavaScript - Udemy",
-            "link": "http://ude.my/UC-39036a5e-1454-4bba-8fd9-bf77ada60d45/"
-        }
-    ]
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Full Stack Course Database",
+			"description": "This full stack application uses React and a REST API built using Sequelize, Express, Node.js and JavaScript to provide a way for users to administer a school database containing information about courses. Users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating or deleting courses in the database. In addition, the app requires users to create an account and sign in to make changes to the database. Navigation links and buttons will dynamically display based on whether there is an authenticated user logged in or not. Error messages are displayed in any validations fail when updating or creating a course, as well as during user sign up.",
+			"technologies": [
+				"JavaScript",
+				"HTML",
+				"CSS",
+				"Visual Studio Code",
+				"Node.js",
+				"Express",
+				"Sequelize",
+				"React"
+			],
+			"live_link": "https://kdrezdon-fullstack-course-app.herokuapp.com/",
+			"github_link": "https://github.com/kimdrezdon/full-stack-course-database",
+			"image_urls": [
+				"/static/img/project-10-square.png",
+				"/static/img/project-10-landscape-1.png",
+				"/static/img/project-10-landscape-2.png",
+				"/static/img/project-10-landscape-3.png",
+				"/static/img/project-10-landscape-4.png",
+				"/static/img/project-10-landscape-5.png",
+				"/static/img/project-10-landscape-6.png",
+				"/static/img/project-10-landscape-7.png"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "SQL Library Manager",
+			"description": "This project uses JavaScript, Sequelize, Express, Pug and Node.js to build a web application that manages a database of books. The main page loads the book listing with pagination links to display only ten books per page. Books can be created, updated and deleted. Error messages will be displayed if the title, author or year fields are invalid. A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results.",
+			"technologies": [
+				"JavaScript",
+				"HTML",
+				"CSS",
+				"Visual Studio Code",
+				"Node.js",
+				"Express",
+				"Pug",
+				"Sequelize"
+			],
+			"live_link": "https://kdrezdon-sql-library-manager.herokuapp.com/",
+			"github_link": "https://github.com/kimdrezdon/sql-library-manager",
+			"image_urls": [
+				"/static/img/project-8-square.png",
+				"/static/img/project-8-landscape-1.png",
+				"/static/img/project-8-landscape-2.png",
+				"/static/img/project-8-landscape-3.png",
+				"/static/img/project-8-landscape-4.png",
+				"/static/img/project-8-landscape-5.png"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "React Photo Gallery",
+			"description": "This project uses JavaScript, JSX, Axios, React and React Router to generate a photo gallery using data fetched from the Flickr API. Three default topics are available when the page loads. The user can search for a destination to find related images. A loading indicator displays while the app fetches new data for the search. If no matches are found by the search, a message displays informing the user that there were no results found. An error message is displayed when a user navigates to a path that does not exist.",
+			"technologies": [
+				"JavaScript",
+				"HTML",
+				"CSS",
+				"Visual Studio Code",
+				"React"
+			],
+			"live_link": "https://kdrezdon-react-gallery.herokuapp.com/",
+			"github_link": "https://github.com/kimdrezdon/react-photo-gallery",
+			"image_urls": [
+				"/static/img/project-7-square.png",
+				"/static/img/project-7-landscape-1.png",
+				"/static/img/project-7-landscape-2.png",
+				"/static/img/project-7-landscape-3.png",
+				"/static/img/project-7-landscape-4.png"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Portfolio",
+			"description": "This project is my portfolio, created using server-side JavaScript, Node.js, Express and Pug. An error message is displayed on the page when a user navigates to a path that does not exist.",
+			"technologies": [
+				"JavaScript",
+				"HTML",
+				"CSS",
+				"Visual Studio Code",
+				"Node.js",
+				"Express",
+				"Pug"
+			],
+			"live_link": "https://kim-drezdon.herokuapp.com/",
+			"github_link": "https://github.com/kimdrezdon/portfolio",
+			"image_urls": [
+				"/static/img/project-6-square.png",
+				"/static/img/project-6-landscape-1.png",
+				"/static/img/project-6-landscape-2.png",
+				"/static/img/project-6-landscape-3.png"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Employee Directory",
+			"description": "This project is an employee directory for a fictional company. It uses Fetch API to request data from the Random User Generator API. The JSON object from the API is parsed and a card is created for each employee with basic contact information. Clicking on an employee’s card will display a modal window with additional information. Within the modal window, employees can be toggled through continuously without having to exit the modal. The list of employees can be filtered using the search field.",
+			"technologies": [
+				"JavaScript",
+				"AJAX",
+				"HTML",
+				"CSS",
+				"Visual Studio Code"
+			],
+			"live_link": "https://kimdrezdon.github.io/employee-directory/",
+			"github_link": "https://github.com/kimdrezdon/employee-directory",
+			"image_urls": [
+				"/static/img/project-5-square.png",
+				"/static/img/project-5-landscape-1.png",
+				"/static/img/project-5-landscape-2.png",
+				"/static/img/project-5-landscape-3.png"
+			]
+		},
+		{
+			"id": 5,
+			"project_name": "Phrase Hunter Game",
+			"description": "This project is a browser-based phrase guessing game, created using JavaScript and Object-Oriented Programming. After clicking the Start Game button, the game board is revealed with a randomly selected phrase. The user guesses a letter by either clicking on the onscreen keyboard or by pressing the selected letter on their own keyboard, disabling that letter for future guesses. If the selected letter matches a letter in the phrase, the matching letter(s) in the phrase are revealed. If the selected letter does not match a letter in the phrase, one of the user’s five hearts is removed. The player keeps guessing either until they guess all the letters and win, or they use up all of their hearts and lose the game.",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/phrase-hunter-game/",
+			"github_link": "https://github.com/kimdrezdon/phrase-hunter-game",
+			"image_urls": [
+				"/static/img/project-4-square.png",
+				"/static/img/project-4-landscape-1.png",
+				"/static/img/project-4-landscape-2.png",
+				"/static/img/project-4-landscape-3.png",
+				"/static/img/project-4-landscape-4.png",
+				"/static/img/project-4-landscape-5.png"
+			]
+		},
+		{
+			"id": 6,
+			"project_name": "Interactive Form",
+			"description": "This project uses unobtrusive JavaScript and jQuery to add dynamic and conditional functionality to a registration form. The entire form is checked for validity and completeness. If any errors are found, the form will not submit and the corresponding error messages will be displayed. If all fields are valid, an alert displays informing the user that the registration was successfully submitted.",
+			"technologies": [
+				"JavaScript",
+				"jQuery",
+				"HTML",
+				"CSS",
+				"Visual Studio Code"
+			],
+			"live_link": "https://kimdrezdon.github.io/interactive-form/",
+			"github_link": "https://github.com/kimdrezdon/interactive-form",
+			"image_urls": [
+				"/static/img/project-3-square.png",
+				"/static/img/project-3-landscape-1.png",
+				"/static/img/project-3-landscape-2.png",
+				"/static/img/project-3-landscape-3.png",
+				"/static/img/project-3-landscape-4.png"
+			]
+		},
+		{
+			"id": 7,
+			"project_name": "List Pagination and Filtering",
+			"description": "This project uses unobtrusive JavaScript to dynamically add pagination links to a long list of students, displaying only ten students per page. This will work for a list of any length.  A search feature is added to allow users to find full or partial matches to their search. The pagination links are updated based on the search results. A select menu is available to allow the user to choose how many results are displayed per page.",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/list-pagination-and-filtering/",
+			"github_link": "https://github.com/kimdrezdon/list-pagination-and-filtering",
+			"image_urls": [
+				"/static/img/project-2-square.png",
+				"/static/img/project-2-landscape-1.png",
+				"/static/img/project-2-landscape-2.png",
+				"/static/img/project-2-landscape-3.png",
+				"/static/img/project-2-landscape-4.png"
+			]
+		},
+		{
+			"id": 8,
+			"project_name": "Random Quote Generator",
+			"description": "This is the first project I have ever created. Using JavaScript, a random quote and color is displayed each time the user clicks the button. It also has an interval timer that will automatically change the quote and color every ten seconds. I recently added a feature to prevent repeating quotes",
+			"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+			"live_link": "https://kimdrezdon.github.io/random-quote-generator/",
+			"github_link": "https://github.com/kimdrezdon/random-quote-generator",
+			"image_urls": [
+				"/static/img/project-1-square.png",
+				"/static/img/project-1-landscape-1.png",
+				"/static/img/project-1-landscape-2.png"
+			]
+		}
+	],
+	"technologies": [
+		{
+			"name": "JavaScript",
+			"image_url": "/static/img/javascript-logo.png"
+		},
+		{
+			"name": "React",
+			"image_url": "/static/img/react-logo.png"
+		},
+		{
+			"name": "jQuery",
+			"image_url": "/static/img/jquery-logo.png"
+		},
+		{
+			"name": "Node.js",
+			"image_url": "/static/img/node-logo.png"
+		},
+		{
+			"name": "Express",
+			"image_url": "/static/img/express-logo.png"
+		},
+		{
+			"name": "HTML",
+			"image_url": "/static/img/html-logo.png"
+		},
+		{
+			"name": "CSS",
+			"image_url": "/static/img/css-logo.png"
+		},
+		{
+			"name": "Visual Studio Code",
+			"image_url": "/static/img/vscode-logo.png"
+		},
+		{
+			"name": "Git/Github",
+			"image_url": "/static/img/github-logo.png"
+		},
+		{
+			"name": "Pug",
+			"image_url": "/static/img/pug-logo.png"
+		},
+		{
+			"name": "Heroku",
+			"image_url": "/static/img/heroku-logo.png"
+		},
+		{
+			"name": "Sequelize",
+			"image_url": "/static/img/sequelize-logo.png"
+		}
+	],
+	"profiles": [
+		{
+			"name": "LinkedIn",
+			"link": "https://www.linkedin.com/in/kimdrezdon",
+			"icon": "fab fa-linkedin"
+		},
+		{
+			"name": "GitHub",
+			"link": "https://github.com/kimdrezdon",
+			"icon": "fab fa-github"
+		},
+		{
+			"name": "CodeWars",
+			"link": "https://www.codewars.com/users/kimdrezdon",
+			"icon": "fas fa-code"
+		},
+		{
+			"name": "HackerRank",
+			"link": "https://www.hackerrank.com/kim_drezdon",
+			"icon": "fab fa-hackerrank"
+		},
+		{
+			"name": "Twitter",
+			"link": "https://twitter.com/KimDrezdon",
+			"icon": "fab fa-twitter"
+		},
+		{
+			"name": "freeCodeCamp",
+			"link": "https://www.freecodecamp.org/kimdrezdon",
+			"icon": "fab fa-free-code-camp"
+		},
+		{
+			"name": "Udemy",
+			"link": "https://www.udemy.com/user/kim-drezdon-2/",
+			"icon": "fas fa-laptop-code"
+		}
+	],
+	"certifications": [
+		{
+			"name": "Full Stack JavaScript Techdegree - Treehouse",
+			"link": "https://www.credential.net/izid9leb"
+		},
+		{
+			"name": "JavaScript Algorithms and Data Structures - freeCodeCamp",
+			"link": "https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
+		},
+		{
+			"name": "20 Web Projects With Vanilla JavaScript - Udemy",
+			"link": "http://ude.my/UC-39036a5e-1454-4bba-8fd9-bf77ada60d45/"
+		},
+		{
+			"name": "React Front to Back - Udemy",
+			"link": "http://ude.my/UC-c4f26fe7-62d2-4960-b474-a4b1a89c1aa2/"
+		}
+	]
 }
